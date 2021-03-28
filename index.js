@@ -15,13 +15,13 @@ function greet(time) {
   const hoursInInt = parseInt(hourInString, 10);
 
   if (hoursInInt < 12) {
-    return displayMessage('Good Morning');
+    return 'Good Morning';
   }
   else if (hoursInInt >=12 && hoursInInt <= 17){
-    return displayMessage('Good Afternoon');
+    return 'Good Afternoon';
   }
   else {
-  return displayMessage('Good Evening');
+  return 'Good Evening';
   }
 }
 
